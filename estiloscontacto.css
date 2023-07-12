@@ -1,0 +1,117 @@
+/* Estilos generales */
+body {
+    margin: 0;
+  }
+
+/*Estilos del logo*/
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color:orangered;    
+    font-family: 'Pokemon Solid', sans-serif;
+    text-align: center;
+    text-shadow: 8px 8px 8px  black;
+}
+
+/*Estilos de barra de navegación*/
+nav{background-color: whitesmoke;
+    padding: 10px;
+}
+
+/*Estilos de los links*/
+.nav-links {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3px;
+  }
+
+/*Estilos de los elementos de la lista*/  
+.nav-links li {
+    text-align: center;
+  }
+
+.nav-links a {
+  text-decoration: none;
+  color:orangered;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: larger;
+}  
+
+/* Estilos del titulo */
+.titulo{
+    background-color: orangered;
+    text-align: center;
+    padding: 20px;
+}
+
+.titulo h2{
+    margin: 0;
+    font-size: 24px;
+    color: white;
+    font-family: 'Pokemon Solid', sans-serif;
+}
+
+.titulo p{
+    margin: 20px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://images.pexels.com/photos/3050833/pexels-photo-3050833.jpeg?auto=compress&cs=tinysrgb&w=800");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+  }
+  
+  .contact-form {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 5px;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid orangered;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: orangered;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: orange;
+  }
+
+  /* Estilos del pie de página */
+footer {
+    background-color:orangered;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
